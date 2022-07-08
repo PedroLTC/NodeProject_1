@@ -1,0 +1,47 @@
+/* Porpiedades para mantener el footer abajo*/
+
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+           
+  }
+
+  /* Estilo para el boton de subir */
+
+  #button-up{
+    width: 35px;
+    height: 35px;
+    background: #2C3E50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 60px;
+    right: 5px;
+    cursor: pointer;
+    border: solid 4px transparent;
+    transition: all 300ms ease;
+    transform: scale(0);
+  }
+
+  #button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0,0,0,0.1);
+  }
+
+  #form-cont{
+    border: solid 3px #18BC9C;
+    padding: 40px;
+    border-radius: 10%;
+  }
+
+  
